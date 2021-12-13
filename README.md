@@ -30,50 +30,50 @@ We obtained the following results:
 
 Overall accuracy: 0.5164668989402215
 Accuracy by category:
-{'Appointments / booking': 0.45,
- 'Brand image': 0.7473601718282877,
- 'Careers & applications': 1.0,
- 'Cart': 0.7816389698458119,
- 'Category': 0.6553837342497136,
- 'Checkout': 0.5120805762944707,
- 'Confirmation': 0.971321501265004,
- 'Favorites / wishlist': 0.8551282051282051,
- 'Form': 0.6499999999999999,
- 'Formations / services': 0.9704724409448818,
- 'Help / support': 0.8502615694164989,
- 'Home': 0.6244410190674144,
- 'Information / legals': 0.5911504424778762,
- 'My account': 0.6454901960784314,
- 'Offers & services': 0.9195402298850575,
- 'Other': 0.46674467708885914,
- 'Press / news': 0.8248022598870056,
- 'Product': 0.18902031135594446,
- 'Search': 0.8308021448508278,
+{'Appointments / booking': 0.45,<br>
+ 'Brand image': 0.7473601718282877,<br>
+ 'Careers & applications': 1.0,<br>
+ 'Cart': 0.7816389698458119,<br>
+ 'Category': 0.6553837342497136,<br>
+ 'Checkout': 0.5120805762944707,<br>
+ 'Confirmation': 0.971321501265004,<br>
+ 'Favorites / wishlist': 0.8551282051282051,<br>
+ 'Form': 0.6499999999999999,<br>
+ 'Formations / services': 0.9704724409448818,<br>
+ 'Help / support': 0.8502615694164989,<br>
+ 'Home': 0.6244410190674144,<br>
+ 'Information / legals': 0.5911504424778762,<br>
+ 'My account': 0.6454901960784314,<br>
+ 'Offers & services': 0.9195402298850575,<br>
+ 'Other': 0.46674467708885914,<br>
+ 'Press / news': 0.8248022598870056,<br>
+ 'Product': 0.18902031135594446,<br>
+ 'Search': 0.8308021448508278,<br>
  'Store locator': 0.7675956542276807}
  
 *Balanced mode*
 
 Overall accuracy: 0.5901507120350076
 Accuracy by category:
-{'Appointments / booking': 0.05,
- 'Brand image': 0.7321104112849389,
- 'Careers & applications': 1.0,
- 'Cart': 0.5852513877804771,
- 'Category': 0.4670103092783505,
- 'Checkout': 0.5226667426038872,
- 'Confirmation': 0.9546714793889934,
- 'Favorites / wishlist': 0.8705128205128206,
- 'Form': 0.5166666666666666,
- 'Formations / services': 0.9527559055118109,
- 'Help / support': 0.9180684104627768,
- 'Home': 0.6619413768019002,
- 'Information / legals': 0.7531904983698183,
- 'My account': 0.5980392156862745,
- 'Offers & services': 0.9933333333333334,
- 'Other': 0.5893520974402181,
- 'Press / news': 0.9157627118644067,
- 'Product': 0.4447710592638449,
- 'Search': 0.9408345987371582,
+{'Appointments / booking': 0.05,<br>
+ 'Brand image': 0.7321104112849389,<br>
+ 'Careers & applications': 1.0,<br>
+ 'Cart': 0.5852513877804771,<br>
+ 'Category': 0.4670103092783505,<br>
+ 'Checkout': 0.5226667426038872,<br>
+ 'Confirmation': 0.9546714793889934,<br>
+ 'Favorites / wishlist': 0.8705128205128206,<br>
+ 'Form': 0.5166666666666666,<br>
+ 'Formations / services': 0.9527559055118109,<br>
+ 'Help / support': 0.9180684104627768,<br>
+ 'Home': 0.6619413768019002,<br>
+ 'Information / legals': 0.7531904983698183,<br>
+ 'My account': 0.5980392156862745,<br>
+ 'Offers & services': 0.9933333333333334,<br>
+ 'Other': 0.5893520974402181,<br>
+ 'Press / news': 0.9157627118644067,<br>
+ 'Product': 0.4447710592638449,<br>
+ 'Search': 0.9408345987371582,<br>
  'Store locator': 0.8554558337269722}
 
 To obtain them again, one can only run all the cells of the enclosed Jupyter Notebook in the natural order. Results will pop within minutes.
