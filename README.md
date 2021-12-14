@@ -29,7 +29,7 @@ We obtained the following results:
 *Unbalanced mode*
 
 Overall accuracy: 0.5164668989402215<br>
-Accuracy by category:
+Accuracy by category:<br>
 {'Appointments / booking': 0.45,<br>
  'Brand image': 0.7473601718282877,<br>
  'Careers & applications': 1.0,<br>
@@ -54,7 +54,7 @@ Accuracy by category:
 *Balanced mode*
 
 Overall accuracy: 0.5901507120350076<br>
-Accuracy by category:
+Accuracy by category:<br>
 {'Appointments / booking': 0.05,<br>
  'Brand image': 0.7321104112849389,<br>
  'Careers & applications': 1.0,<br>
