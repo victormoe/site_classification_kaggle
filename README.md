@@ -11,10 +11,10 @@ To evaluate our model, the chosen metrics is the accuracy score. We may either c
 
 **Ideas and model**
 
-A first analysis of the dataset shows that urls can be split into three parts:
-- The website or prefix representing the company that owns the website
-- The path of the url on this website
-- The "end of the url", containing other accurate pieces of information, called the actions or c_vars
+A first analysis of the dataset shows that urls can be split into three parts:<br>
+- The website or prefix representing the company that owns the website<br>
+- The path of the url on this website<br>
+- The "end of the url", containing other accurate pieces of information, called the actions or c_vars<br>
 
 The approach was to vectorize each of those parts separately, and then apply a ML merger model. The simple multi-label logistic regression was used here but it is still subject to improvements and new tests.
 
@@ -28,7 +28,7 @@ We obtained the following results:
 
 *Unbalanced mode*
 
-Overall accuracy: 0.5164668989402215
+Overall accuracy: 0.5164668989402215<br>
 Accuracy by category:
 {'Appointments / booking': 0.45,<br>
  'Brand image': 0.7473601718282877,<br>
@@ -53,7 +53,7 @@ Accuracy by category:
  
 *Balanced mode*
 
-Overall accuracy: 0.5901507120350076
+Overall accuracy: 0.5901507120350076<br>
 Accuracy by category:
 {'Appointments / booking': 0.05,<br>
  'Brand image': 0.7321104112849389,<br>
