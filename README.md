@@ -82,4 +82,13 @@ To obtain them again, one can only run all the cells of the enclosed Jupyter Not
 
 Next improvements could include:
 
-TODO
+- Perform error analysis to improve features and focus on errors and categories with a weak accuracy score
+- Clean maps from chunks to category scores: remove figures, explicit categories of words, stop words etc
+- Create a system for merging similar words or words with the same grammatical root/meaning/translation Ex: search <-> searches, search <-> recherche, knitwear <-> sportswear etc. Is useful to handle new expressions in the url, namely actions. Use stemming or pre-trained embedding models like Word2Vec.
+- Improve the path chunk probability computations by taking into account the prior/bias on the category
+- Grid-search hyperparameters (Logistic l2 penalization, threshold on minimal occurrence for chunk relevance) etc
+- Try scaling inputs before feeding to the penalized Logistic Regression
+- Try other models: MLPClassifier, non-linear classifiers (Random Forest/Gradient Boosting etc) ...
+- Dig in the specificity of a given url chunk for a given category -> use TF-IDF-like features. For instance, chunks like ".fr" or "us" are frequent in all the different categories, there are not discriminant. Find a way of implementing this in the vecto
+- Combine our "balanced" and "unbalanced" modes to leverage the strengths of both of them. Merge them, or simply average the predict_proba of the two models
+- Correct the randomness of fold splits to be able to get perfectly comparable results (the models can still remain random during training though)
